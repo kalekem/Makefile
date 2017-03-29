@@ -1,7 +1,6 @@
 //main function for the family members
 
 #include <stdio.h>
-#include "family.h"
 #include "members.h"
 
 int main(){
@@ -21,3 +20,14 @@ int main(){
 
 	return 0;
 }
+
+/*
+family.o: family.c family.h members.c
+	gcc -c family.c
+
+members.o: family.h 
+	gcc -c members.c
+
+family: family.o members.o
+	gcc family.o members.o -o family
+	*/

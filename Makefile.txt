@@ -1,4 +1,4 @@
-family.o: family.c family.h members.h
+family.o: family.c members.h
 	gcc -c family.c
 
 family: family.o

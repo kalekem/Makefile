@@ -1,8 +1,6 @@
 //implents the list of family members
 
 #include <stdio.h>
-#include "family.h"
-
 void parents(char *parents[]){
 
 	//names of parents - dad and mum
