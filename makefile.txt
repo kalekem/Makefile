@@ -1,0 +1,5 @@
+family.o: family.c family.h members.h
+	gcc -c family.c
+
+family: family.o
+	gcc family.o -o family
